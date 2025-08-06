@@ -16,6 +16,8 @@ Assemblage.sh - Assemblage des raw reads par Megahit, produit deux fichiers .fa,
 
 Prodigal.sh - Prédiction des CDS en identifiant les ORF puis les filtrant grâce à des modèles statistiques. Input = Assemblage .fa  
 
+Fna_2_fa.sh - Convertit les fna obtenus par prodigal en .fa. Input = Dossier contenant les .fna  
+
 Alignement.sh - Alignement des reads sur l'assemblage, ce qui permet de les localiser à l'aide du fichier BAM trié en sortie. Étapes obligatoires pour la suite. Input = Paired raw reads et assemblage .fa  
 
 Pipeline.sh - Réunis plusieurs étapes en un script :   
